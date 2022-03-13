@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formúlario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div>
+        <h1>Cadastro</h1>
+        <p>Preencha com suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <section class="nome">
+                    <pre>
+                        <label>Nome</label>
+                        <input type="text" name="nome" id="nome">
+                    </pre>
+                </section>
+
+                <pre>
+                    <label for="">Sobre nome</label>
+                    <input type="text" name="sobre nome" id="sobre nome">
+                </pre>
+            </div>
+        </fieldset>
+        <br>
+
+        <div>
+           <label for="">Email</label>
+           <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label>De qual lado da aplicação você desenvolve?</label>
+            <label>
+                <input type="radio" name="devweb" value="frontend">Front-end
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="backend">Back-end
+            </label>
+
+            <label>
+                <input type="radio" name="devweb" value="">Fullstack
+            </label>
+        </div>
+
+        <div>
+            <label>Senioridade</label>
+            <select id="senioridade">
+                <option>Junior</option>
+                <option>Pleno</option>
+                <option>Senior</option>
+            </select>
+        </div>
+
+        <fieldset>
+            <div>
+                <label for="Selecione as tecnologias que utiliza"></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                <label for="tecnologia1">HTML</label>
+                <input type="checkbox" name="tecnologia2" nome="tecnologia2" value="CSS">
+                <label for="tecnologia2">CSS</label>
+            </div>
+        </fieldset>
+    </form>
+
+  
+    
+</body>
+<a href="index.html" target="_self" rel="prev"><img width="20px" src="imagens/seta_esquerda.png" alt="seta direcionada para esquerda"></a>
+</html>

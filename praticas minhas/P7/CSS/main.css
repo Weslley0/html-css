@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FAD4C6;
+}
+.menu-principal {
+    background-color: #DEAFB4;
+}
+
+.main{
+    width: 900px;
+    float: left;
+    position: relative;
+}

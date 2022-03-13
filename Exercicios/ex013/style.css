@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: rgb(241, 245, 195);
+    color: rgb(187, 56, 56);
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{color: brown;}
+
+
+
+pre{background-color: brown;}
+

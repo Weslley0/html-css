@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Formulário Exemplo</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+        <div>
+           <form method="post" action="MyServlet">
+            <h3>Formulário com novos campos:</h3>
+            <table>
+            <tr>
+            <td><label>Email: </label></td>
+            </tr>
+            <tr>
+            <td><label>Telefone: </label></td>
+            <td><input type="tel" pattern="\(\d\d\)\d\d\d\d\-\d\d\d\d" 
+            title="(xx) xxxxx-xxxx"  name="phone" required/></td>
+            </tr>
+            <tr>
+            <td><label>Idade: </label></td>
+            <td><input type="number" name="age" required min="18"
+            max="100"/></td>
+            </tr>
+            </table>
+            <button type="submit">enviar</button>
+            </form>
+            </div>
+            </body>
+            </html>

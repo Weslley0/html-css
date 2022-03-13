@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient( rgb(128, 128, 128), rgb(100, 100, 100), rgb(49, 49, 49));
+
+    margin: 10%;
+}
+
+h1,h2{
+    
+    color: rgb(0, 194, 129);
+    text-shadow: 2px 2px 2px rgb(0, 69, 71);
+    text-align: center;
+}
+p{  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    text-shadow: 2px 2px 2px rgb(0, 69, 71);
+    margin: auto;
+    text-align: justify;
+}
+
+.h3geral{
+    box-shadow: 1px 1px 2px 5px rgb(1, 3, 3);
+    text-align:center;
+}
+
+.pixel{
+    font-size: 10px;
+}
+.ponto{
+    font-size: 10pt;
+}
+.paica{
+    font-size: 2pc;
+}
+.in{
+    font-size: 0.5in;
+}
+.centimetro{
+   font-size: 1cm;
+}
+.milimetro{
+    font-size: 10mm;
+}
+h3{  
+    color: rgb(0,194,129);
+    text-shadow: 2px 2px 2px rgb(0, 69, 71);
+}
+.recado{
+  
+}

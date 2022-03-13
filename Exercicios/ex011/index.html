@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5</title>
+    <style>
+        body{background-color: rgb(173, 173, 173);
+        }
+    </style>
+    <link rel="stylesheet" href="../ex001/style.css">
+    
+</head>
+<body>
+ <h1>InserImagem Dinâmica</h1>
+     <p>(palavras do professor) tente abrir esse site em vários dispositivos ou simplesmente aumente e diminua o tamanho do navegador.</p>
+ 
+    <picture><source media="(max-width: 750px)" srcset="img/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/imagem-m.png" type="image/png">
+        
+      <img src="img/imagem-g.png" alt="imagem flexível">
+
+    </picture>
+    
+    <h1>Adicionando áudio</h1>
+       <p>Aprendendo a reproduzir áudio.</p>
+       <!--<audio src="midia/Bluesy Vibe.mp3" controls  autoplay ></audio> -->
+       <!--MP3 WAV OGG-->
+         <audio preload="metadata"controls autoplay loop> 
+             <source src="midia/Bluesy Vibe.mp" type="audio/ mpeg">
+             <source src="midia/Bluesy Vibe.mp" type="audio/ogg">
+             <source src="midia/Bluesy Vibe.mp3" type="audio/wav"><!--arquivos wav são muito pesados-->
+             <p>infelizmente seu navegador não consegui reproduzir áudio.<a href="midia/Bluesy Vibe.mp3">clique aqui para baixar</a></p>
+
+      
+    
+    
+            </audio> 
+
+            
+
+
+</body>
+<p style="color: tomato; text-align: right;">11</p>
+<div id="Nav11">
+    <!-- voltar -->
+    <a href="../ex010/index.html" target="_self" rel="prev"><p style="text-shadow: 2px 2px 3px black;"></p>voltar</a>
+    <!-- EX001 -->
+    <a href="../ex001/index.html" target="_self" rel="prev">1</a>
+    <!-- EX002 -->
+    <a href="../ex002/index.html" target="_self" rel="prev">2</a>
+    <!-- EX003 -->
+    <a href="../ex003/index.html" target="_self" rel="next">3</a>
+    <!-- EX004 -->
+    <a href="../ex004/index.html" target="_self" rel="next">4</a>
+    <!-- EX005 -->
+    <a href="../ex005/index.html" target="_self" rel="next">5</a>
+    <!-- EX006 -->
+    <a href="../ex006/index.html" target="_self" rel="next">6</a>
+    <!-- EX007 -->
+    <a href="../ex007/index.html" target="_self" rel="next">7</a>
+    <!-- EX008 -->
+    <a href="../ex008/index.html" target="_self" rel="next">8</a>
+    <!-- EX009 -->
+    <a href="../ex009/index.html" target="_self" rel="next">9</a>
+    <!-- EX010 -->
+    <a href="../ex010/index.html" target="_self" rel="next">10</a>
+    <!-- EX011 -->
+    <a href="../ex011/index.html" target="_self" rel="next">11</a>
+    <!-- EX012 -->
+    <a href="../ex012/index.html" target="_self" rel="next">12</a>
+    <!-- EX013 -->
+    <a href="../ex013/index.html" target="_self" rel="next">13</a>
+    <!-- EX014 -->
+    <a href="../ex014/index.html" target="_self" rel="next">14</a>
+    <!-- EX015 -->
+    <a href="../ex015/index.html" target="_self" rel="next">15</a>
+    <!-- EX016 -->
+    <a href="../ex016/index.html" target="_self" rel="next">16</a>
+    <!-- EX017 -->
+    <a href="../ex017/fonte01.html" target="_self" rel="next">17</a>
+    <!-- EX018 -->
+    <a href="../ex018/fonte01.html" target="_self" rel="next">18</a>
+    <!-- PRÓXIMO -->
+    <a href="../ex012/index.html" target="_self" rel="next">próximo</a>
+  </div>
+</html>
