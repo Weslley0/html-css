@@ -16,7 +16,8 @@ body{
     
 }
 header{
-    background-color: darkgray;
+    background-image: linear-gradient( to bottom , rgb(226, 221, 221), gray, rgb(34, 33, 33));
+    background-image: linear-gradient( to top , rgb(226, 221, 221), gray, rgb(34, 33, 33));
     padding: 10px;
     margin: 10px;
     border-radius: 20px 20px;
@@ -45,11 +46,12 @@ nav>a:hover{
 
 
 main{
-    background-color: darkgray;
+    
     padding: 10px;
     margin: 10px;
     border-radius: 20px 20px;
     box-shadow: 8px 6px 20px 0px rgb(0 0 0 / 25%);
+    
 
 }
 footer{
