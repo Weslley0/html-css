@@ -26,9 +26,14 @@ h2{
 }
 
 body{ background-image: linear-gradient(to bottom, #F8C5B5, #D9A39E);
-
+height: 600px;
 }
 
 p{
 text-align:justify;
+}
+
+#pag{
+  color: aqua;
+  text-decoration: none;
 }
