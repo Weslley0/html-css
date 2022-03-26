@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(223, 219, 219);
+ 
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table td{
+    border: 2px solid black;
+   
+}
+th{
+    background-color: darkgray;
+    border: 2px solid black;
+}
+
+thead{
+    margin-left: 40px;
+}
+
+tfoot{
+    background-color: darkgray;
+    
+}
+
+tfoot>tr>td{
+    padding: 0px 8px;
+
+}
+
+
+#ocultar{
+    background-color: rgb(223, 219, 219);
+    border: 1px solid rgb(223 , 219, 219);
+}
